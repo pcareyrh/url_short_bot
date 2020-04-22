@@ -1,5 +1,5 @@
 const rp = require('request-promise');
-const TELEGRAM_TOKEN = '1097705184:AAHXkjXbsMRzkmJWv6CkeOX8gml95wMPg64';
+const TELEGRAM_TOKEN = 'VAR_TELEGRAM_TOKEN';
 async function getShortUrl(longUrl) {
   const options = {
     method: 'POST',
